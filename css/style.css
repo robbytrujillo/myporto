@@ -11,18 +11,19 @@ body {
 .wrapper {
   width: 1024px;
   margin: auto;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 10px 0px;
 }
 
 nav {
-    background-color: #FAFAFA;
-    color: #000;
+  background-color: #fafafa;
+  color: #486cdc;
 }
 
 nav > .wrapper {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
+  align-items: center;
 }
 
 .menu {
@@ -40,5 +41,14 @@ nav > .wrapper {
 
 .menu > ul > li > a {
   text-decoration: none;
-  color: #000;
+  color: #486cdc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  height: 45px;
 }
