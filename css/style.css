@@ -114,7 +114,7 @@ header {
 .header-jumbotron > p {
   padding: 5px;
   margin: 0px 5px 20px 5px;
-  color: silver;
+  color: #486cdc;
 }
 
 a {
@@ -186,4 +186,58 @@ a {
 
 #my-portfolio > .wrapper > h4 > span{
   color: blue;
+}
+
+#my-portfolio > .wrapper > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px; 
+} 
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 50px;
+}
+
+.grid > .item {
+  border: 1px solid #eaeaea;
+  background-color: #E8F1F5;
+  border-radius: 5px;
+  position: relative;
+}
+
+.grid > .item > img {
+  width: 15%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.grid > .item > .item-detail {
+  padding: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 70%;
+}
+
+.grid > .item > .item-detail > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-weight: bold; */
+}
+
+.grid > .item > .item-detail > div > small {
+  color: #486cdc;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.grid > .item > .item-detail > div > a {
+  color: ##E8F1F5;
+  font-size: 1rem;
+  font-weight: normal;
 }
