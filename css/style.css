@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 html,
 body {
@@ -66,6 +67,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0 0 4px #fff;
 }
 
 .header-opacity {
@@ -76,4 +80,57 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.header-jumbotron {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height:100%;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header-jumbotron > h4 {
+  color: #486cdc;
+  font-size: 1.2rem
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-jumbotron > h5 {
+  color: #000;
+  margin: 0px;
+  padding: 5px;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.header-jumbotron > p {
+  padding: 5px;
+  margin: 0px 5px 20px 5px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.button {
+  background-color: #486cdc; 
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.button-xl {
+  font-size: 1.4rem; 
+  padding: 20px;
 }
