@@ -76,7 +76,7 @@ header {
   background-color: #fafafa;
   width: 100%;
   height: 100%;
-  opacity: 0.7;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   left: 0;
@@ -103,7 +103,7 @@ header {
 }
 
 .header-jumbotron > h5 {
-  color: #000;
+  color: #E8F1F5;
   margin: 0px;
   padding: 5px;
   font-size: 3.5rem;
@@ -114,7 +114,7 @@ header {
 .header-jumbotron > p {
   padding: 5px;
   margin: 0px 5px 20px 5px;
-  color: #000;
+  color: silver;
 }
 
 a {
@@ -133,4 +133,57 @@ a {
 .button-xl {
   font-size: 1.4rem; 
   padding: 20px;
+}
+
+/* statistic */
+#statistic {
+  background-color:  #E8F1F5; 
+  color: #486cdc;
+  font-family: 'Kanit', sans-serif;
+}
+
+#statistic > .wrapper {
+  padding: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid; */
+}
+
+#statistic > .wrapper > div {
+  /* border: 1px solid; */
+  text-align: center
+}
+
+#statistic > .wrapper > div > p {
+  font-size: 3.5rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+#statistic > .wrapper > div > p > i {
+  margin-right: 10px;
+  font-size: 3.5rem
+}
+
+#statistic > .wrapper > div > small {
+  font-size: 1.5rem;
+}
+
+/* my-portfolio */
+#my-portfolio {
+  background-color: #fafafa;
+  color: #486cdc;
+}
+
+#my-portfolio > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#my-portfolio > .wrapper > h4 > span{
+  color: blue;
 }
