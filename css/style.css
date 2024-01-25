@@ -176,6 +176,10 @@ a {
   color: #486cdc;
 }
 
+#my-portfolio > .wrapper {
+  padding: 50px 0 50px 0;
+}
+
 #my-portfolio > .wrapper > h4 {
   text-align: center;
   font-size: 2.8rem;
@@ -237,7 +241,32 @@ a {
 }
 
 .grid > .item > .item-detail > div > a {
-  color: ##E8F1F5;
+  color: #E8F1F5;
   font-size: 1rem;
   font-weight: normal;
 }
+
+/* about-me */
+#about-me {
+  background-color: #E8F1F5;
+  color: #486cdc;
+}
+
+#about-me > .wrapper {
+  padding: 50px 0 50px 0;
+}
+
+#about-me > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#about-me > .wrapper > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px; 
+} 
