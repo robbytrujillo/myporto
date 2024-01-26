@@ -348,3 +348,48 @@ a {
   margin-bottom: 50px; 
 } 
 
+#contact-me > .wrapper > .grid > .item {
+  background-color: #E8F1F5;
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact-me > .wrapper > .grid > .item > .item-detail {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+#contact-me > .wrapper > .grid > .item > .item-detail > img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-light-raius: 5px;
+}
+
+#contact-me > .wrapper > .grid > .item > .item-detail > div {
+  padding: 10px 20px 10px 20px;
+}
+
+/* copyright */
+footer {
+  background: #E8F1F5;
+  color: #486cdc;
+  text-align: center;
+}
+
+footer > .wrapper {
+  padding: 20px 0px 20px 0px;
+}
+
+/* Responsive */
+/* 1024, 900, 768, 600, 450 */
+@media only screen and (max-width:1024) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:900) {
+
+}
