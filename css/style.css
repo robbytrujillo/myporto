@@ -458,11 +458,12 @@ footer > .wrapper {
 
   #statistic > .wrapper {
     padding: 10px;
+    flex-direction: column;
   }
 
   #statistic > .wrapper > div {
     display: flex;
-    flex-direction: column;
+    
   }
 
   #statistic > .wrapper > div > small {
@@ -470,5 +471,27 @@ footer > .wrapper {
     padding-left: 10px;
   }
 
+  #about-me > .wrapper > div {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #about-me > .wrapper > div > .foto {
+    width: 50%;
+  }
+
+  #about-me > .wrapper > div > .foto > img {
+    max-width: 100%;
+  }
+
+  #about-me > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #about-me > .wrapper > div > .desc > .social {
+    margin: auto;
+  }
   
 }
