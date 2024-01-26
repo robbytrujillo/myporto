@@ -411,5 +411,33 @@ footer > .wrapper {
 }
 
 @media only screen and (max-width: 768px) {
+  .menu {
+    width: 60%;
+  }
+
+  .header-jumbotron > h4 {
+    font-size: 1.5rem;
+  }
+  
+  .header-jumbotron > h5 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  
+  .header-jumbotron > p {
+    font-size: 0.8rem;
+  }
+
+  .button {
+    padding: 5px;
+  }
+
+  .button-xl {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  
+
 
 }
