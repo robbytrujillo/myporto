@@ -13,6 +13,7 @@ body {
   width: 1024px;
   margin: auto;
   padding: 10px 0px 10px 0px;
+  font-weight: bold;
 }
 
 /* menu */
@@ -23,6 +24,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+  font-weight: bold;
 }
 
 nav > .wrapper {
@@ -43,6 +45,7 @@ nav > .wrapper {
   margin: 0px;
   padding: 0px;
   justify-content: space-between;
+  
 }
 
 .menu > ul > li > a {
@@ -382,6 +385,17 @@ footer > .wrapper {
   padding: 20px 0px 20px 0px;
 }
 
+/* hamburger-menu */
+button.hamburger.menu {
+  background: none;
+  border: none;
+  cursor: pointer.
+}
+
+button.hamburger.menu > i {
+  color: #E8F1F5;
+  font-size: 1.5rem;
+}
 /* Responsive */
 /* 1024, 900, 768, 600, 450 */
 @media only screen and (max-width: 1024px) {
@@ -495,3 +509,4 @@ footer > .wrapper {
   }
   
 }
+
