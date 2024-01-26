@@ -313,3 +313,38 @@ a {
   color: #486cdc;  
 }
 
+/* Contact Me */
+#contact-me {
+  background-color: #fafafa;
+  color: #486cdc;
+  /* padding: 20px 0px 20px 0px; */
+}
+
+#contact-me {
+  background-color: #fafafa;
+  color: #486cdc;
+}
+
+#contact-me > .wrapper {
+  padding: 50px 0 50px 0;
+}
+
+#contact-me > .wrapper > h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#contact-me > .wrapper > h4 > span{
+  color: blue;
+}
+
+#contact-me > .wrapper > p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px; 
+} 
+
