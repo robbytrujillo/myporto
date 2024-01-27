@@ -386,19 +386,19 @@ footer > .wrapper {
 }
 
 /* hamburger-menu */
-button.hamburger.menu {
+button.hamburger-menu {
   background: none;
   border: none;
   cursor: pointer;
   display: none;
 }
 
-button.hamburger.menu > i {
-  color: #E8F1F5;
+button.hamburger-menu > i {
+  color: #486cdc;
   font-size: 1.5rem;
 }
 
-button.hamburger.menu > i > icon-close {
+button.hamburger-menu > i.icon-close {
   display: none;
 }
 
@@ -514,12 +514,24 @@ button.hamburger.menu > i > icon-close {
     margin: auto;
   }
 
-  button.hamburger.menu {
-    display: inline
+  button.hamburger-menu {
+    display: inline;
   }
 
   .menu {
     display: none;
+  }
+
+  .tampil {
+    display: inline;
+  }
+
+  .tampil > ul {
+    flex-direction: column;
+    background-color" #000;
+    width: 100%;
+    position: fixed;
+    top: 80px;
   }
 }
 
