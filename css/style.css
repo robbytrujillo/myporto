@@ -528,10 +528,15 @@ button.hamburger-menu > i.icon-close {
 
   .tampil > ul {
     flex-direction: column;
-    background-color" #000;
+    background-color: #E8F1F5;
     width: 100%;
     position: fixed;
-    top: 80px;
+    top: 60px;
+    left: 0;
+  }
+
+  .tampil > ul > li {
+    padding: 10px 20px 10px 20px;
   }
 }
 
