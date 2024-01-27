@@ -3,14 +3,17 @@ const hamburgerMenu = document.querySelector(".hamburger-menu");
 const iconBars = document.querySelector(".icon-bars");
 const iconClose = document.querySelector(".icon-close");
 
+hamburgerMenu.addEventListener("click", displayMenu);
+menu.addEventListener("click", displayMenu);
+
 function displayMenu() {
   if (menu.classList.contains("tampil")) {
     menu.classList.remove("tampil");
-    iconBars.computedStyleMap.display = "inline";
-    iconClose.computedStyleMap.display = "none";
+    iconBars.style.display = "inline";
+    iconClose.style.display = "none";
   } else {
     menu.classList.add("tampil");
-    iconBars.computedStyleMap.display = "none";
-    iconClose.computedStyleMap.display = "inline";
+    iconBars.style.display = "none";
+    iconClose.style.display = "inline";
   }
 }
